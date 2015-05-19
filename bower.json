@@ -1,0 +1,20 @@
+{
+  "name": "blank",
+  "version": "1.0.0",
+  "description": "",
+  "authors": [
+    "momo"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.1"
+  }
+}

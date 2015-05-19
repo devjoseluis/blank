@@ -1,0 +1,28 @@
+//Este es para compass
+@import "compass/css3";
+//Asi se importa una fuente de google
+//@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+
+@import "../components/foundation/scss/normalize";
+//Esto es si tenes iconos
+//@import "../css/iconos/style.css";
+
+//Si necesitas las variables y funciones de foundation incluis esto
+@import "../components/foundation/scss/foundation/functions";
+@import "../components/foundation/scss/foundation/components/global";
+//Aqui cambias las variables de foundation y pones tus variables
+@import "parameters";
+//Este son tus funciones
+@import "mixins.scss";
+
+//Luego ya importas foundation
+@import "../components/foundation/scss/foundation";
+
+
+
+/*TUS ESTILOS*/
+
+
+//Y esto va al final para el responsive
+@import "site-medium";
+@import "site-large";
